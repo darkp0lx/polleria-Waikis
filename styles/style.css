@@ -4,8 +4,9 @@
   box-sizing: border-box;
 }
 body{
-  background: #000;
+  background: #fff;
   min-height: 200vh;
+  font-family: 'Alfa Slab One', cursive;
 }
 .swiper-container {
   width: 100vw;
@@ -27,8 +28,18 @@ body{
   height: 100%;
   max-width: 100%;
 }
-.swiper-button-prev{
-  color: black;
+.swiper-button-prev,.swiper-button-next{
+  color: white;
+  outline: none;
+
+}
+.Main{
+  height: 200vh;
+  background-image: url(../images/bg.jpg);
+  opacity: 0.17;
+}
+.swiper-button-next{
+  padding-right: 2em;
 }
 .Header{
   position: fixed;
