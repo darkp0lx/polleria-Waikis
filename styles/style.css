@@ -175,9 +175,32 @@ body {
   background: #fff;
   color: #000;
 }
-
+.Footer_right{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 .Header.sticky ul li a {
   color: #000;
+}
+.Footer__top{
+}
+.img__delivery{
+  width: 300px;
+}
+.Footer {
+  margin-top: 100px;
+  width: 100%;
+  height: 300px;
+  background-image: url(../images/bg-footer.jpg);
+  display: flex;
+  background-size: contain;
+  justify-content: space-between;
+  color: white;
+}
+
+.Footer iframe {
+  padding: 1em;
 }
 
 @media only screen and (max-width:600px) {
@@ -192,6 +215,7 @@ body {
       "img-6 img-2 img-5 img-5";
   }
 }
+
 
 @media only screen and (max-width:475px) {
   .Main__images {
@@ -210,3 +234,4 @@ body {
 
     gap: 10px;
   }
+}
