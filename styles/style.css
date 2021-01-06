@@ -61,9 +61,21 @@ body {
   z-index: 50;
   font-size: 25px;
 }
+.Main_food p{
+  text-align: center;
+  color: black;
+}
+.Main__foods{
+  margin-top: 2em;
+  display: flex;
+}
+.Main__foods img{
+  width: 200px;
+}
 .Main{
   padding:0 1em;
 }
+
 .Main__images {
   padding-top: 1em;
   height: 150vh;
