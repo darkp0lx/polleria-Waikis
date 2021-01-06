@@ -195,7 +195,7 @@ body {
 
 @media only screen and (max-width:475px) {
   .Main__images {
-    width: 100vw;
+    width: 90vw;
     height: 180vh;
     display: grid;
     grid-template-columns: 1fr;
