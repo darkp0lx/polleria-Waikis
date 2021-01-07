@@ -39,7 +39,7 @@ body {
 }
 
 .Main {
-  height: 200vh;
+  height: 210vh;
   background-image: url(../images/bg.png);
 }
 
@@ -64,7 +64,9 @@ body {
   text-align: center;
   color: black;
 }
-
+.Main__buttom{
+  padding-bottom: 100px;
+}
 .Main__foods {
   margin-top: 2em;
   display: flex;
@@ -179,16 +181,9 @@ body {
 
 .Footer_right {
   display: flex;
+
   justify-content: space-evenly;
   align-items: center;
-}
-
-.Main {
-  height: 155vh;
-}
-.Footer_right {
-  display: block;
-  padding-top: 10vh;
 }
 .Header.sticky ul li a {
   color: #000;
@@ -197,8 +192,6 @@ body {
 .Footer_images {
   width: 20vw;
 }
-
-.Footer__top {}
 
 .img__delivery {
   width: 300px;
@@ -267,11 +260,15 @@ body {
     width: 100vw;
     display: grid;
     gap: 5px;
-
+    
     grid-template-areas: "img-1 img-1 img-3 img-3"
       "img-4 img-2 img-5 img-5"
       "img-6 img-2 img-5 img-5";
   }
+}
+.Main {
+  height: auto;
+    background-image: url(../images/bg.png);
 }
 
 
