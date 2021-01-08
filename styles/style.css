@@ -64,9 +64,11 @@ body {
   text-align: center;
   color: black;
 }
-.Main__buttom{
+
+.Main__buttom {
   padding-bottom: 100px;
 }
+
 .Main__foods {
   margin-top: 2em;
   display: flex;
@@ -184,6 +186,7 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+
 .Header.sticky ul li a {
   color: #000;
 }
@@ -220,9 +223,18 @@ body {
 
 }
 
+@media only screen and (max-width:1024px) {
+  .Footer{
+    margin-top: 5vh;
+  }
+  .logo{
+    width: 300px;
+  }
+}
+
 @media only screen and (max-width:768px) {
   .Main__images {
-    padding-bottom: 30vh;
+    padding-bottom: 10vh;
   }
 
   .Footer iframe {
@@ -259,21 +271,121 @@ body {
     width: 100vw;
     display: grid;
     gap: 5px;
-    
+
     grid-template-areas: "img-1 img-1 img-3 img-3"
       "img-4 img-2 img-5 img-5"
       "img-6 img-2 img-5 img-5";
   }
 }
+
 .Main {
   height: auto;
-    background-image: url(../images/bg.png);
+  background-image: url(../images/bg.png);
 }
 
+@media only screen and (max-width:320px) {
+  .Header ul li a {
+    margin: 0 6px;
+    font-size: 12px;
+  }
+
+  .Main__foods img {
+    width: 140px;
+  }
+
+  .img__delivery,
+  .img__delivery_letter {
+    width: 100px;
+  }
+
+  .Header {
+    padding: 20px 15px;
+  }
+
+  .Header.sticky {
+    padding: 20px 15px;
+  }
+
+  .Main__images {
+    width: 100vw;
+  }
+
+  .Footer {
+    margin-top: -16vh;
+    padding-top: 2em;
+    display: block;
+    height: 60vh;
+  }
+
+  .Footer__top {
+    width: 50vw;
+  }
+}
+
+.Footer_right {
+  width: 100%;
+  padding-left: 0;
+
+}
+
+.Header {
+  height: 5vh;
+}
+
+.Header ul {
+  justify-content: flex-end;
+}
+
+.logo {
+  width: 75px;
+}
+
+.Footer iframe {
+  width: 200px;
+  height: 200px;
+}
+
+.swiper-container {
+  height: 50vh;
+}
+
+.Main__buttom {
+  padding-bottom: 0;
+}
 
 @media only screen and (max-width:475px) {
+  .Footer {
+    display: block;
+  }
+
+  .Header {
+    padding: 20px 15px;
+  }
+
+  .Header.sticky {
+    padding: 20px 15px;
+  }
+
+  .Header ul li a {
+    margin: 0 9px;
+  }
+
+  .Main__foods img {
+    width: 180px;
+  }
+
+  .img__delivery,
+  .img__delivery_letter {
+    width: 110px;
+  }
+
   .Main__images {
-    width: 90vw;
+    padding-bottom: 16vh;
+  }
+
+
+  .Main__images {
+    width: 100vw;
     height: 180vh;
     display: grid;
     grid-template-columns: 1fr;
@@ -284,8 +396,6 @@ body {
       "img-4"
       "img-6"
       "img-5";
-
-
     gap: 10px;
   }
 }
