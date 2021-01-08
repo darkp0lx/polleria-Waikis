@@ -12,7 +12,7 @@ body {
 
 .swiper-container {
   width: 100vw;
-  height: 80vh;
+  height: 75vh;
   background-size: 80%;
   background-repeat: no-repeat;
 }
@@ -28,7 +28,7 @@ body {
 .swiper-container img {
   border-style: none;
   width: 100vw;
-  height: 100%;
+  height: 80vh;
 }
 
 .swiper-button-prev,
@@ -209,6 +209,7 @@ body {
 }
 
 .Footer {
+  margin-top: 10vh;
   width: 100%;
   height: 300px;
   background-image: url(../images/bg-footer.jpg);
@@ -343,10 +344,6 @@ body {
 .Footer iframe {
   width: 200px;
   height: 200px;
-}
-
-.swiper-container {
-  height: 50vh;
 }
 
 .Main__buttom {
