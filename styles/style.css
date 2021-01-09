@@ -295,6 +295,10 @@ body {
   .Main__top {
     margin-top: -30px;
   }
+  .Footer {
+    margin-top: 0;
+    padding:1em;
+}
   .Main .Main__top_title {
     text-align: center;
     background: #D53C2E;
@@ -308,8 +312,9 @@ body {
     height: 55vh;}
 
   .Footer iframe {
-    width: 230px !important;
+    width: 294px !important;
     height: 230px !important;
+ 
   }
 
   .Main__foods img {
@@ -362,6 +367,8 @@ body {
 .Footer iframe {
   width: 400px;
   height: 300px;
+  border-radius: 30px;
+
 }
 
 .Main__buttom {
