@@ -184,10 +184,28 @@ body {
   z-index: 100;
   padding: 40px 100px;
 }
+.btn-facebook {
+  position: fixed;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  line-height: 29px;
+  bottom: 80px;
+  right: 30px;
+  background:#fff;
+  border-radius: 5px;
+  color: #3b5998;
+  text-align: center;
+  font-size: 38px;
+}
+.btn-facebook i{
+  margin-top: -2.5px;
+}
 .btn-whatsaap i{
   margin-top: -2px;
 }
 .btn-whatsaap {
+  border-radius: 5px;
   position: fixed;
   justify-content: center;
   width: 30px;
