@@ -4,6 +4,32 @@
   box-sizing: border-box;
 }
 
+.Header.sticky .cool-link::after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: width .3s;
+}
+.Header.sticky .cool-link:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
+
+
+.cool-link::after{
+  content: "";
+  display: block;
+  width: 0;
+  height: 4px;
+  background: #D53C2E;
+  transition: width .3s;
+}
+.cool-link:hover::after{
+  width: 100%;
+  transition: width .3s;
+}
 body {
   background: #fff;
   min-height: 200vh;
@@ -159,6 +185,7 @@ body {
 .Header ul {
   position: relative;
   display: flex;
+  margin-top: 20px;
   justify-content: space-between;
   align-items: center;
 }
