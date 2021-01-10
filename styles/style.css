@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.Header.sticky .cool-link::after{
+.Header.sticky .cool-link::after {
   content: "";
   display: block;
   width: 0;
@@ -12,13 +12,14 @@
   background: black;
   transition: width .3s;
 }
-.Header.sticky .cool-link:hover::after{
+
+.Header.sticky .cool-link:hover::after {
   width: 100%;
   transition: width .3s;
 }
 
 
-.cool-link::after{
+.cool-link::after {
   content: "";
   display: block;
   width: 0;
@@ -26,10 +27,12 @@
   background: #D53C2E;
   transition: width .3s;
 }
-.cool-link:hover::after{
+
+.cool-link:hover::after {
   width: 100%;
   transition: width .3s;
 }
+
 body {
   background: #fff;
   min-height: 200vh;
@@ -181,6 +184,22 @@ body {
   z-index: 100;
   padding: 40px 100px;
 }
+.btn-whatsaap i{
+  margin-top: -2px;
+}
+.btn-whatsaap {
+  position: fixed;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  line-height: 29px;
+  bottom: 30px;
+  right: 30px;
+  background:#fff;
+  color: #0df053;
+  text-align: center;
+  font-size: 38px;
+}
 
 .Header ul {
   position: relative;
@@ -255,15 +274,18 @@ body {
 }
 
 @media only screen and (max-width:1024px) {
-  .Main__buttom{
+  .Main__buttom {
     margin-bottom: 2em;
   }
+
   .Footer {
     margin-top: 0vh;
   }
-  .logo{
+
+  .logo {
     width: 190px;
   }
+
   .Footer {
     height: 400px;
     padding: 1em;
@@ -278,9 +300,11 @@ body {
   .Main__images {
     padding-bottom: 10vh;
   }
-  .logo{
+
+  .logo {
     width: 180px;
   }
+
   .Footer iframe {
     padding: 1em;
     width: 300px;
@@ -372,6 +396,7 @@ body {
 .Main__buttom {
   padding-bottom: 0;
 }
+
 @media only screen and (max-width:320px) {
   .Header ul li a {
     margin: 0 6px;
@@ -386,7 +411,8 @@ body {
     margin-top: 0;
     padding: 1em;
   }
-  .Footer iframe{
+
+  .Footer iframe {
     height: 210px !important;
   }
 
@@ -443,10 +469,12 @@ body {
   .Footer {
     display: block;
   }
-  .Footer iframe{
+
+  .Footer iframe {
     width: 100%;
     height: 280px !important;
   }
+
   .Header {
     padding: 20px 15px;
   }
@@ -462,9 +490,11 @@ body {
   .Main__foods img {
     width: 180px;
   }
-  .logo{
+
+  .logo {
     width: 150px;
   }
+
   .img__delivery,
   .img__delivery_letter {
     width: 110px;
@@ -474,7 +504,7 @@ body {
     padding-bottom: 16vh;
   }
 
-  
+
   .Main__images {
     width: 100vw;
     height: 180vh;
