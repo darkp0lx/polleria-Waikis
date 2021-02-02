@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="noopener" href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./images/android-icon-72x72.png">
+  <link rel="noopener" href="https://fonts.googleapis.com/css2?family=Kufam:wght@800&family=Lato:wght@300&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Polleria Waikys</title>
+</head>
+<style>
+  .Main__nosotros img {
+    width: 100%;
+    height: 65vh;
+    opacity: 1.4;
+    filter: brightness(0.4);
+  }
+
+  .Main__nosotros h1 {
+    font-size: 70px;
+    position: absolute;
+    top: 48%;
+    right: 30%;
+    color: white;
+    font-family: 'Kufam', cursive;
+  }
+
+  .Main__nosotros_contenido {
+    height: 55vh;
+    background-image: url(./images/bg.png);
+    font-family: 'Lato', sans-serif;
+    display: grid;
+    place-items: center;
+
+  }
+
+  .Main__nosotros_contenido p {
+    width: 70vw;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  @media only screen and (width: 1024px) {
+    .img__delivery {
+      width: 212px;
+    }
+
+    .img__delivery_letter {
+      width: 200px;
+    }
+  }
+
+  @media only screen and (width:768px) {
+    .Main__nosotros h1 {
+      font-size: 70px;
+      top: 48%;
+      right: 13%;
+    }
+
+    .Main__nosotros_contenido p {
+      width: 77vw;
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width:425px) {
+    .Main__nosotros h1 {
+      font-size: 46px;
+      position: absolute;
+      top: 48%;
+      right: 6%;
+    }
+
+    .Main__nosotros_contenido {
+      height: 100vh;
+    }
+
+    .Main__nosotros_contenido p {
+      width: 80vw;
+      font-size: 16px;
+    }
+  }
+
+  @media only screen and (max-width: 375px) {
+    .Header ul li a {
+      margin: 0 4px;
+      font-size: 13px;
+    }
+
+    .Main__nosotros h1 {
+      font-size: 40px;
+      position: absolute;
+      top: 48%;
+      right: 7%;
+    }
+  }
+</style>
+
+<body>
+  <a class="btn-facebook" target="_blank" href="https://www.facebook.com/wilfredo.barazorda.92  ">
+    <i class="fab fa-facebook-square"></i></a>
+  <a class="btn-whatsaap" target="_blank" href="https://api.whatsapp.com/send?phone=+51900424024">
+    <i class="fab fa-whatsapp-square"></i></a>
+  <div class="Header">
+    <nav class="Header__nav">
+      <ul>
+        <li><a class="cool-link" target="_blank" href="https://api.whatsapp.com/send?phone=+51900424024">Pedidos</a>
+        </li>
+        <li><a class="cool-link" href="./nosotros.html">Nosotros</a></li>
+        <li><a class="cool-link" href="./carta.html">Carta</a></li>
+      </ul>
+    </nav>
+    <div class="Header__logo">
+      <a href="./index.html">
+        <img loading="lazy" class="logo" src="./images/logo.png" alt="logo">
+
+      </a>
+    </div>
+  </div>
+  <div class="Main__nosotros">
+    <img loading="lazy" src="./images/nosotros/pollo_brasa.jpg" alt="pollo bg">
+    <h1>Polleria Waykis</h1>
+    <div class="Main__nosotros_contenido">
+      <p>En la capital del histórico departamento de Apurimac, orgullosa cuna de la cultura chancas, nació nuestro sueño
+        «Waykis»
+
+        Desde 2019, cargados de fe en Dios y contagiados de la alegría de nuestra tierra bendita, empezamos muy pequeños
+        a servir a nuestros hermanos un pollo sin igual, un pollo jugoso cocinado lentamente a la leña, un pollo 100%
+        fresco que va de la granja a la mesa.
+
+        Poco a poco el aroma de nuestro sueño, empezó a crecer y a conquistar el paladar de otras tierras. Con la
+        alegría y el festejo de nuestros carnavales, manteniendo como objetivo concentrar una experiencia culinaria
+        única.
+
+        Al ser más que una pollería, nuestra carta, nos permite brindarle a nuestros clientes una variedad de platos
+        tanto en entradas, fondos y postres; optando por diferentes opciones para acompañar nuestro gran Pollo a La
+        Leña.
+
+        hoy más que nunca, estamos preparados y comprometidos en dar a conocer el auténtico sabor a Leña que tanto gusta
+        a nivel nacional e internacional.
+
+        ¡Nuestro sabor, aroma y presentación, nos hacen únicos y diferentes!</p>
+    </div>
+  </div>
+  <!-- main -->
+  <div class="Footer">
+    <div class="Footer_right">
+      <div class="Footer__top">
+        <h3>Contáctanos:</h3>
+        <ul>
+          <li>Atención Delivery:<span>Abancay 11:30a.m a 9:00p.m</span></li>
+          <li>Dirección: <span>Pje. Clorinda Matto de Turner(Frente al Círculo de Galleros Av.Nuñez) La
+              Victoria-Abancay</span>
+          </li>
+        </ul>
+      </div>
+      <div class="Footer_images">
+        <img loading="lazy" class="img__delivery" src="./images/delivery.png" alt="img delivery">
+        <img loading="lazy" class="img__delivery_letter" src="./images/delivery leter.png" alt="delivery letter">
+      </div>
+    </div>
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d969.3553623066998!2d-72.87668257082396!3d-13.632108296076753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x916d03200931c2a5%3A0x3f9e9cb611cab21b!2sAve%20Nu%C3%B1ez%20916%2C%20Abancay%2003001!5e0!3m2!1ses-419!2spe!4v1609947823235!5m2!1ses-419!2spe"
+      frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector(".Header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+  </script>
+
+  <script src="https://kit.fontawesome.com/1327d1eae4.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
